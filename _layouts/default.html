@@ -124,8 +124,8 @@
           {% if cat == 'news' %}
           <tr>
             <td style="padding-left:5.5%;width:75%;vertical-align:middle">
-              <li>
-                [{{ post.date | date: "%m/%Y" }}] {{ post.title }}
+              <li class="no-paragraphs">
+                [{{ post.date | date: "%m/%Y" }}] {{ post.excerpt }}
             </li>
             </td>
           </tr>
